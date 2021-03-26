@@ -24,7 +24,6 @@ body {
     top: 0;
     z-index: 9;
     bottom: 0;
-    height: 100%;
 }
 
 h1 {
@@ -105,4 +104,13 @@ p {
 }
 .links:hover{
     background-color: darkorchid;
+}
+.article{
+    text-decoration: none;
+}
+.article:hover{
+    color: blueviolet;
+}
+html{
+    scroll-behavior: smooth;
 }
